@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:project_breathe/views/create_blog.dart';
-
-
+import 'drawer.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({ Key? key }) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -18,47 +17,40 @@ class _HomePageState extends State<HomePage> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-          Text(
-            "Flutter",
-             style: TextStyle(
-            fontSize: 27,
-            
-
-          ),
-          ),
-
-          Text("Blog", style: TextStyle(
-            fontSize: 27,
-            color: Colors.amber
-          ),
-
-          )
-
-        ],
+            Text(
+              "Flutter",
+              style: TextStyle(
+                fontSize: 27,
+              ),
+            ),
+            Text(
+              "Blog",
+              style: TextStyle(fontSize: 27, color: Colors.amber),
+            )
+          ],
         ),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.pink.shade600,
         elevation: 0.0,
-        ),
-      
+      ),
+      drawer: Mydrawer(),
       body: Container(),
       floatingActionButton: Container(
         padding: EdgeInsets.symmetric(vertical: 20),
-    
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-        FloatingActionButton(
-          onPressed:() {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => CreateBlog() ));
-            
-          },
-          child: Icon(Icons.add),
-          )
-      ],
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            FloatingActionButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => CreateBlog()));
+              },
+              child: Icon(
+                Icons.add,
+              ),
+            )
+          ],
+        ),
       ),
-      ),
-
-
     );
   }
 }
