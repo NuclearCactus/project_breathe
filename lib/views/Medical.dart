@@ -41,7 +41,7 @@ class _MedPageState extends State<MedPage> {
     return Scaffold(
       backgroundColor: Colors.white12,
       appBar: AppBar(
-        backgroundColor: Colors.pink.shade600,
+        backgroundColor: Colors.pinkAccent,
         title: Text(
           "Breathe",
           style: TextStyle(
