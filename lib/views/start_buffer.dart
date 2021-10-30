@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:project_breathe/views/authentication.dart';
+
 import 'home.dart';
 import 'package:flutter/material.dart';
 import 'Myroutes.dart';
@@ -26,7 +28,7 @@ class _startpageState extends State<startpage> {
 
   route() {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => HomePage()));
+        context, MaterialPageRoute(builder: (context) => LoginPage()));
   }
 
   @override

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Myroutes.dart';
 
 class CreateBlog extends StatefulWidget {
   const CreateBlog({Key? key}) : super(key: key);
@@ -18,24 +19,25 @@ class _CreateBlogState extends State<CreateBlog> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "Flutter",
+              "Breathe ",
               style: TextStyle(
                 fontSize: 27,
               ),
             ),
             Text(
-              "Blog",
-              style: TextStyle(fontSize: 27, color: Colors.amber),
+              "Out",
+              style: TextStyle(fontSize: 27, color: Colors.red[100]),
             )
           ],
         ),
         backgroundColor: Colors.pink.shade500,
         elevation: 0.0,
-        actions: <Widget>[
-          Container(
-              padding: EdgeInsets.symmetric(horizontal: 16),
-              child: Icon(Icons.file_upload))
-        ],
+        // actions: <Widget>[
+        //   Container(
+        //       padding: EdgeInsets.symmetric(horizontal: 16),
+        //       child: Icon(Icons.file_upload)
+        //   )
+        // ],
       ),
       body: Container(
         child: Column(
@@ -43,36 +45,51 @@ class _CreateBlogState extends State<CreateBlog> {
             SizedBox(
               height: 10,
             ),
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 16),
-              height: 150,
-              decoration: BoxDecoration(
-                  color: Colors.pink.shade100,
-                  borderRadius: BorderRadius.circular(6)),
-              width: MediaQuery.of(context).size.width,
-              child: Icon(Icons.add_a_photo),
-            ),
-            SizedBox(
-              height: 8,
-            ),
+            // Container(
+            //   margin: EdgeInsets.symmetric(horizontal: 16),
+            //   height: 150,
+            //   decoration: BoxDecoration(
+            //       color: Colors.pink.shade100,
+            //       borderRadius: BorderRadius.circular(6)),
+            //   width: MediaQuery.of(context).size.width,
+            //   child: Icon(Icons.add_a_photo),
+            // ),
+            // SizedBox(
+            //   height: 8,
+            // ),
             Container(
               margin: EdgeInsets.symmetric(horizontal: 16),
               child: Column(
                 children: <Widget>[
                   TextField(
-                    decoration: InputDecoration(hintText: "Author Name"),
+                    decoration: InputDecoration(
+                      hintText: "Author Name",
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(3.0),
+                      ),
+                    ),
                     onChanged: (val) {
                       authorName = val;
                     },
                   ),
                   TextField(
-                    decoration: InputDecoration(hintText: "Title"),
+                    decoration: InputDecoration(
+                      hintText: "Title",
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(3.0),
+                      ),
+                    ),
                     onChanged: (val) {
                       title = val;
                     },
                   ),
                   TextField(
-                    decoration: InputDecoration(hintText: "Description"),
+                    decoration: InputDecoration(
+                      hintText: "Body",
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(3.0),
+                      ),
+                    ),
                     onChanged: (val) {
                       desc = val;
                     },
