@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       backgroundColor: Colors.white12,
       appBar: AppBar(
-        backgroundColor: Colors.pink.shade600,
+        backgroundColor: Colors.pinkAccent,
         title: Text(
           "Login",
           style: TextStyle(
