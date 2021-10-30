@@ -1,7 +1,11 @@
 import 'dart:async';
+<<<<<<< HEAD
 
 import 'package:project_breathe/views/authentication.dart';
 
+=======
+import 'authentication.dart';
+>>>>>>> c86bf9a90d89e2f3402b061d344702ef8ae4ef83
 import 'home.dart';
 import 'package:flutter/material.dart';
 import 'Myroutes.dart';

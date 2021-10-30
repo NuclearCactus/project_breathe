@@ -26,11 +26,19 @@ class _MydrawerState extends State<Mydrawer> {
                 decoration: BoxDecoration(color: Colors.pink.shade500),
                 margin: EdgeInsets.zero,
                 accountName: Text(
+<<<<<<< HEAD
                   "Prathwush Ranjan",
                   textScaleFactor: 1.2,
                 ),
                 accountEmail: Text(
                   "prdoc@glen.com",
+=======
+                  "James Milner",
+                  textScaleFactor: 1.2,
+                ),
+                accountEmail: Text(
+                  "Jamesmilner7@gmail.com",
+>>>>>>> c86bf9a90d89e2f3402b061d344702ef8ae4ef83
                   textScaleFactor: 1.2,
                 ),
                 currentAccountPicture: CircleAvatar(
@@ -93,7 +101,11 @@ class _MydrawerState extends State<Mydrawer> {
               ),
             ),
             SizedBox(
+<<<<<<< HEAD
               height: 500,
+=======
+              height: 230,
+>>>>>>> c86bf9a90d89e2f3402b061d344702ef8ae4ef83
             ),
             ListTile(
               leading: Icon(
