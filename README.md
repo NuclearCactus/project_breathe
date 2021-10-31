@@ -22,7 +22,7 @@
  
 ## 🌟 About The Project
 
-#### In a world where everyone is straying further from each other every day, social Media is the best way to connect with people and cope up with anxiety and depression. Breathe helps you form communities of patients and doctors who safely communicate about the broad sppectrum of mental heath in various blogs and get first aid as well as connect to doctors and get help. 
+**In a world where everyone is straying further from each other every day, social Media is the best way to connect with people and cope up with anxiety and depression. Breathe helps you form communities of patients and doctors who safely communicate about the broad sppectrum of mental heath in various blogs and get first aid as well as connect to doctors and get help.**
 
 ◈ **Built With :** 
 
