@@ -3,35 +3,26 @@
 
 # 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐫𝐞𝐚𝐭𝐡𝐞
 
+**In a condensed, suffocating society you can feel closed off, when you can't process your emotions and are going through inner turmoil which you can't speak about. That's where 'Breathe' comes, a place to communicate, a place to share your pain. There's a saying "Half of your problems get wiped off when you have someone to talk to"; Breathe provides the perfect environmet to cope up in a mentally claustrophic world.**
+
+[Project Showcase Video](https://drive.google.com/file/d/1YSzBgrUsrrDDvmfscWy3ouFnd5ZPkMuj/view)
 
 
-**You say you’re ‘depressed’ – all I see is resilience.
- You are allowed to feel messed up and inside out.
-  It doesn’t mean you’re defective – it just means you’re human.
-That's where 'Breathe' comes , a place to talk to , a place to share
-your emotions . There's a saying "Half of your problems get wiped 
-when you have someone to talk to" , Breathe provides the perfect environmet to 
-cope up with 'depression' , 'anxiety'.** 
-
-
-
-
-## Table Of Content
+## Table Of Contents
 
  - ### 1. About the Project
      - #### Built With
  - ### 2. Deployment
  - ### 3. Features
-
  - ### 4. Roadmap
  - ### 5. Contributing
- - ### 6. Licesce
+ - ### 6. License
 
 
  
 ## 🌟 About The Project
 
-#### The best way to cope up with anxiety is to connect with people. In this mordern world where everyone is straying further each day, Social Media is the best way to connect with people. Breathe helps just that.
+#### In a world where everyone is straying further from each other every day, social Media is the best way to connect with people and cope up with anxiety and depression. Breathe helps you form communities of patients and doctors who safely communicate about the broad sppectrum of mental heath in various blogs and get first aid as well as connect to doctors and get help. 
 
 ◈ **Built With :** 
 
@@ -49,26 +40,25 @@ cope up with 'depression' , 'anxiety'.**
   ➣ Click on Code and copy the URL
   ➣ Go to your command line where you want to store the 
   ➣ repository and type: git clone <paste-url> 
-  ➣ Open the Project in Android Studio and you're Ready to Go!  
+  ➣ Open the Project in Android Studio and you're Ready to go!  
 ```
-
 
 
 ##  Features
 
-- Blog Post
-- Live Chat with People
-- Get advice from Certified Proffesionals
-- FullScreen Mode
-- Cross platform
+- Blogs where users can post about various issues
+- Talk to other people facing the same problem
+- Get advice from Certified Profesionals
+- Get access to a diverse knowledge on the spectrum of mental health
+- Works on Android/iOS
 - Help the Community and Yourself
-
 
 
 ## Roadmap
 
 - Additional browser support
-
+- Live chat service with groups
+- UI enhancements
 - Add more integrations
 
 
@@ -82,12 +72,9 @@ Please adhere to this project's `code of conduct`.
 
 
 
-
 ## ✅License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
 
 
 ##  𝔸𝕦𝕥𝕙𝕠𝕣𝕤
